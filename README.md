@@ -1,5 +1,10 @@
-## Runpod.io Basic Template
+# Runpod.io Basic Template
 
-git clone https://github.com/tomcity/runpod_base.git
-cd base
-docker buildx bake
+A template to create a basic docker container for runpod.io 
+
+## Usage
+
+```bash
+  git clone https://github.com/tomcity/runpod_base.git
+  cd runpod_base/base
+  docker buildx bake
