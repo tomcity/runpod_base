@@ -13,4 +13,4 @@ A template to create a basic docker container for runpod.io
 Monitors SSH connections: if you add RUNPOD_PROJECT_ID "Environment Variable" with ID of the Pod and there is no SSH connection for 300 seconds, the pod will be deleted automatically.
 
 
-https://github.com/runpod/containers/tree/main
+🐳 | https://github.com/runpod/containers/tree/main
