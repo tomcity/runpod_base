@@ -4,7 +4,7 @@ variable "RELEASE" {
 
 target "default" {
     dockerfile = "Dockerfile"
-    tags = ["runpod/stable-diffusion:comfy-ui-${RELEASE}"]
+    tags = ["tomcity/stable-diffusion:comfy-ui-${RELEASE}"]
     contexts = {
         scripts = "../container-template"
         proxy = "../container-template/proxy"
